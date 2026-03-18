@@ -82,4 +82,18 @@ driver.maximize_window()
 #     day.click()
 #     sleep(1)
 
+'''
+is_displayed() ---> returns true if element is displayed on the screen
+is_enabled() ---> returns true if elements(like buttons) is enabled on the screen
+is_selected() ---> returns true if elements(like checkboxes, radio buttons) is selected on the screen.
+'''
+
+male = driver.find_element(By.ID, 'male')
+male.click()
+print(male.is_displayed())
+print(male.is_enabled()) #---> only for buttons
+
+check = driver.find_element(By.XPATH, '//label[text()="Monday"]/preceding-sibling::input')
+check.click()
+print(check.is_selected())
 driver.quit()
