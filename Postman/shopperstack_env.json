@@ -1,0 +1,70 @@
+{
+	"id": "953c3c7e-5e80-4e01-8362-c1fecdcd1a87",
+	"name": "Shopperstack_env",
+	"values": [
+		{
+			"key": "baseurl",
+			"value": "https://www.shoppersstack.com/shopping",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "shopperID",
+			"value": "384559",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "shopperEmail",
+			"value": "wanderingwizard16@gmail.com",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "shopperPwd",
+			"value": "qwerty123",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "jwtToken",
+			"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ3YW5kZXJpbmd3aXphcmQxNkBnbWFpbC5jb20gU0hPUFBFUiIsImV4cCI6MTc3NTgzNDE3NSwiaWF0IjoxNzc1Nzk4MTc1fQ.2GlrV9Ar5LTFWjf14DVQY1Y3gNNUS6aveu3UtxugE7U",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "addressId",
+			"value": 153233,
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "productId",
+			"value": 58,
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "itemId",
+			"value": 481108,
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "orderId",
+			"value": 73000,
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "reviewId",
+			"value": 28515,
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-04-10T07:33:38.163Z",
+	"_postman_exported_using": "Postman/12.5.2"
+}
